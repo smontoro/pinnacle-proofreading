@@ -6,4 +6,18 @@ font-family: 'Open Sans', sans-serif;
 
 /** Navbar 
 ========================== **/
+li.nav-item {
+	margin-left: 50px;
+}
 
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 10px 30px;
+}
+
+.logo {
+	width: 60%;
+}
+
+
+/** Header
+========================== **/
