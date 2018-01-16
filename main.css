@@ -60,6 +60,10 @@ header {
 	margin: 10px 0;
 }
 
+#method i {
+	color: #828282;
+}
+
 #method p {
 	color: #828282;
 	font-size: 18px;
