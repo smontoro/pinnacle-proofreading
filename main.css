@@ -1,7 +1,7 @@
 
 /** BASE STYLES **/
 #about, #method, #contact {
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -13,6 +13,12 @@ a:hover {
 	color: #828282;
 	text-decoration: none;
 }
+
+.btn-outline-dark:hover {
+    background-color: #Cb9b80 !important;
+    color: #fff !important;
+}
+
 
 /** Navbar 
 ========================== **/
@@ -37,36 +43,51 @@ header {
     padding: 40px 0;
 }
 
-#about {
+#content {
 	margin: 50px 0 0 20px;
 	color: #fff;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 /** Method
 ========================== **/
-
 #method {
 	padding: 70px 0;
 }
 #method h3, i {
 	color: #Cb9b80;
+	margin: 10px 0;
 }
 
 #method p {
 	color: #828282;
+	font-size: 18px;
+    line-height: 30px;
+    padding: 0 30px 0 30px;
 }
 
-/** Footer
+/** Contact
 ========================== **/
-footer {
+#contact {
 	background-color: #Cb9b80;
 	color: #fff;
 }
 
-footer img {
+#contact img {
 	border: 5px solid white;
 }
+
+#contact h2, #contact p {
+	font-size: 30px;
+}
+
+#email {
+	font-size: 20px;
+}
+
+/** Footer
+========================== **/
 
 
 
