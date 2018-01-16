@@ -4,6 +4,16 @@
 font-family: 'Open Sans', sans-serif;
 }
 
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #828282;
+	text-decoration: none;
+}
+
 /** Navbar 
 ========================== **/
 li.nav-item {
@@ -22,20 +32,23 @@ li.nav-item {
 /** Header
 ========================== **/
 header {
-	background: url(images/hero.jpg);
+	background: url(images/hero.jpg) no-repeat;
     background-size: cover;
-    height: 550px;
-    color: #fff;
-    font-size: 22px;
-    background-position: center;
+    padding: 40px 0;
 }
 
-.about {
+#about {
 	margin: 50px 0 0 20px;
+	color: #fff;
+    font-size: 22px;
 }
 
 /** Method
 ========================== **/
+
+#method {
+	padding: 70px 0;
+}
 #method h3, i {
 	color: #Cb9b80;
 }
@@ -43,3 +56,18 @@ header {
 #method p {
 	color: #828282;
 }
+
+/** Footer
+========================== **/
+footer {
+	background-color: #Cb9b80;
+	color: #fff;
+}
+
+footer img {
+	border: 5px solid white;
+}
+
+
+
+
